@@ -1,0 +1,93 @@
+* {
+    color: var(--text-color);
+}
+
+:root {
+    font-size: 12px;
+    font-family: sans-serif;
+    
+    --primary-color: #2e1453;
+    --primary-color-light: #9a27ae;
+    --primary-color-dark: #4e2763;
+    --secondary-color: #2b3773;
+    --text-color: #FFF;
+    --text-color-alternative: #272727;
+    box-sizing: border-box;
+}
+
+html, body, .app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--third-color);
+}
+
+.background-gradient {
+    background: rgb(30,40,49);
+    background: -moz-linear-gradient(90deg, rgba(30,40,49,1) 35%, rgba(36,39,72,1) 45%);
+    background: -webkit-linear-gradient(90deg, rgba(30,40,49,1) 35%, rgba(36,39,72,1) 45%);
+    background: linear-gradient(90deg, rgba(30,40,49,1) 35%, rgba(36,39,72,1) 45%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e2831",endColorstr="#242748",GradientType=1);
+}
+
+.header {
+    color: var(--third-color);
+    font-size: 3rem;
+    padding: 10em;
+}
+
+.main ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: var(--text-color);
+
+    padding: 10px;
+}
+
+.main ul li img {
+    width: 100%;
+}
+
+.main ul li:first-child {
+    max-width: 15%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main ul li {
+    padding: 1em;
+    color: var(--text-color-alternative);
+    font-size: 1.8rem;
+}
+
+.main ul li:last-child {
+    background-color: var(--primary-color-light);
+    color: var(--text-color);
+    font-weight: 400;
+    padding: .1em;
+
+    border: 1px solid var(--primary-color-light);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 15%;
+}
+
+.developers-button {
+    background-color: var(--primary-color-light);
+    color: #FFF;
+    padding: 1.2em;
+    border: 1px solid var(--primary-color-light);
+    width: fit-content;
+}
