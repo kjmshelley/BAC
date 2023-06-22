@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #2e1453;
+    --primary-color-light: #9a27ae;
+    --primary-color-alternative: #804edd;
+    --primary-color-dark: #4e2763;
+    --secondary-color: #2b3773;
+    --text-color: #FFF;
+    --text-color-alternative: #272727;
+}
+
+.app-banner-left {
+    background-color: var(--primary-color);
+}
+
+.app-subscribe-section {
+    background-color: var(--primary-color)!important;
+    position: relative;
+    padding: 30px;
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 2;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.app-btn {
+    background-color: var(--primary-color-light)!important;
+    border: 1px solid var(--primary-color-light)!important;
+}
+
+.app-active {
+    background-color: var(--primary-color)!important;
+    border: 1px solid #FFF!important;
+    color: #FFF!important;
+    border-radius: 5px;
+}
+
+.app-img-fluid {
+    width: 129px;
+}
+
+.app-banner-description {
+    font-size: 25px !important;
+}
+
+.app-primary-color-alternative-bold {
+    color: var(--primary-color-alternative);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.app-learn-more {
+    background-color: var(--primary-color-dark);
+    color: #FFF;
+    border: 1px solid var(--primary-color-dark);
+}
+
+.app-primary-color {
+    background-color: var(--primary-color);
+    color: #FFF!important;
+}
+.app-primary-color-light {
+    background-color: var(--primary-color-light);
+    color: #FFF!important;
+}
+.app-primary-color-alternative {
+    background-color: var(--primary-color-alternative);
+    color: #FFF!important;
+}
+.app-primary-color-dark {
+    background-color: var(--primary-color-dark);
+    color: #FFF!important;
+}
+.app-text-color-alternative {
+    background-color: var(--text-color-alternative);
+    color: #FFF!important;
+}
+.app-secondary-color {
+    background-color: var(--secondary-color);
+    color: #FFF!important;
+}
+
+
+.app-badge {
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 5px;
+}
+
+.app-scroll-to-top {
+    background-color: var(--primary-color-dark)!important;
+    color: #FFF!important;
+}
+
+.app-about-text-block {
+    background-color: #FFF!important;
+}
