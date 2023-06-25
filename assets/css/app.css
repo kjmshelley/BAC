@@ -4,8 +4,17 @@
     --primary-color-alternative: #804edd;
     --primary-color-dark: #4e2763;
     --secondary-color: #2b3773;
+    --third-color:#FF1949;
     --text-color: #FFF;
     --text-color-alternative: #272727;
+}
+
+.app-banner-4 {
+    padding-bottom: 100px;
+    padding-top: 150px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 38px;
 }
 
 .app-banner-left {
@@ -40,11 +49,17 @@
 }
 
 .app-banner-description {
-    font-size: 25px !important;
+    font-size: 20px !important;
 }
 
 .app-primary-color-alternative-bold {
     color: var(--primary-color-alternative);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.app-third-color-alternative-bold {
+    color: var(--third-color);
     font-weight: bold;
     text-decoration: underline;
 }
